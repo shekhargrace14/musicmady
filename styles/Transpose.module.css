@@ -1,0 +1,33 @@
+.global{
+    --color-primary: #f3b007;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Poppins', sans-serif; */
+    /* --color-primary: #4BD1A0; */
+    --font-family-primary: 'Poppins', sans-serif;
+}
+.transpose_box{
+    margin: 0 auto;
+    /* border: 1px solid black; */
+}
+.transpose{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .transpose_Btn{
+    height: 2.5rem;
+    width: 2.5rem;
+    /* padding: rem; */
+    font-size: 1rem;
+    font-weight: bold;
+    
+
+    background-color: white;
+  }
+  .transpose_active{
+    background-color:#f3b007;
+    /* background-color: red; */
+  }

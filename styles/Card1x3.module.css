@@ -1,0 +1,102 @@
+.global{
+    --color-primary: #f3b007;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    /* font-family: 'Poppins', sans-serif; */
+    /* --color-primary: #4BD1A0; */
+    --font-family-primary: 'Poppins', sans-serif;
+  }
+.main{
+    width: 75%;
+    /* border: 1px solid black; */
+    margin: 2rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: red; */
+    justify-content: space-between;
+}
+.card{
+    width: 32%;
+    border: 1px solid black;
+    margin: 0 0 1rem;
+    background-color: white ;
+    cursor: pointer;
+    transition: .3s;
+    overflow: hidden;
+
+    
+}
+.card:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+}
+
+.card:hover h4{
+    color: var(--color-primary);
+}
+.card:hover .iframe{
+    /* width: 102%; */
+    transform: scale(1.02);
+
+}
+.img_box{
+    overflow: hidden;
+    height: 12.3rem;
+    /* border: 10px solid rgb(254, 79, 79); */
+}
+.iframe{
+    transition: .5s;
+}
+.h4{
+    font-size: 1.2rem;
+    transition: .3s;
+}
+.info{
+    padding: .8rem;
+    /* background-color: red; */
+
+}
+.song_info{
+    margin: .5rem 0;
+
+}
+.discription{
+    margin: .5rem 0;
+}
+@media only screen and (max-width:1200px){
+    .main{
+        width: 95%;
+        
+    }
+}
+@media only screen and (max-width:1024px){
+    .main{
+        width: 95%;
+        
+    }
+    .card{
+        width: 49%;
+    }
+}
+@media only screen and (max-width:769px){
+    .card{
+        width: 100%;
+    }
+    
+.main{
+    width: 80%;
+    
+}
+}
+@media only screen and (max-width:550px){
+    .card{
+        width: 100%;
+    }
+    
+.main{
+    width: 95%;
+    
+}
+}
