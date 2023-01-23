@@ -5,7 +5,7 @@ import { useState } from "react";
 import Transpose from '../components/Transpose';
 const TransposeButtons =() => {
 
-    const [value, setValue] = useState(1);
+    const [value, setValue] = useState(0);
    
 
     const buttonClick = (index) => {
