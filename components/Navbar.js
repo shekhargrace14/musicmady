@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className={styles.header}>
         <div className={styles.logo}>
           <Link href='/'>
-            <a ><h1>MusicMady</h1></a>
+            <a ><h1>MusicMady...</h1></a>
           </Link>
         </div>
 
